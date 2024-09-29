@@ -1,14 +1,16 @@
 {
   "name": "101462289_comp3123-exec04",
   "version": "1.0.0",
+  "description": "Express.js application for COMP 3123 execution 04",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express", "comp3123", "nodejs"],
+  "author": "Bilal",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.0"
   },
